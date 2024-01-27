@@ -1,4 +1,7 @@
+// require function to import the Express module, and then calling the Router() function from the express module
 const router = require('express').Router();
+
+// Import models from Sequelize, an ORM library for node.js, to interact with the database
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // The `/api/products` endpoint
